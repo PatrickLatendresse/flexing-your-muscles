@@ -14,17 +14,18 @@ body {
 
 img {
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
   padding: 1.5rem 0;
 
   background-color: #8bc9d9;
-  border-top: 3px solid #005e76
+  border-top: 3px solid #005e76;
 
   color: #005e76;
 }
@@ -50,6 +51,7 @@ img {
 }
 
 .social {
+  margin-left: auto;
   padding: 0 1rem;
   display: flex;
 }
